@@ -10,7 +10,7 @@ export class AppService {
     return {
       code: 0,
       data: {
-        hello: 'vercel',
+        hello: 'vercel~',
       },
     };
   }
