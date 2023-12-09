@@ -13,5 +13,14 @@ export class AppService {
         hello: 'vercel~',
       },
     };
+  },
+
+  postJons() {
+    return {
+      code: 0,
+      data: {
+        post: 'json...'
+      }
+    }
   }
 }
