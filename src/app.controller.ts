@@ -15,7 +15,7 @@ export class AppController {
     return this.appService.getJson();
   }
 
-  @Post('post')
+  @Post('/post')
   postJson(): any {
     return this.appService.postJons();
   }
