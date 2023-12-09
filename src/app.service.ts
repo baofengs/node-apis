@@ -13,7 +13,7 @@ export class AppService {
         hello: 'vercel~',
       },
     };
-  },
+  }
 
   postJons() {
     return {
